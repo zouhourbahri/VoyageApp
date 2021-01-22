@@ -1,0 +1,77 @@
+.userpost{
+    display: flex;
+    margin:30px;
+    background-color: rgba(235, 204, 163, 0.774);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px rgba(240, 128, 128, 0.788);
+}
+.btnuserpost{
+    margin-left: 300px;
+    margin-top: 120px;
+    font-weight: sans-serif;
+}
+.btn-delete{
+    background-color: inherit;
+    padding-left:12px;
+    width:100px;
+    height: 40px;
+}
+.btn-delete:hover{
+    background-color: rgb(186, 128, 240);
+}
+.postyear , .postdirection{
+    margin: 5px;
+    font-size: 26px;
+    font-weight: bold;
+}
+.posttitle{
+    display: flex;
+    justify-content: center;
+}
+.userpostdescription{
+    margin:0px 5px;
+}
+.linkedlist{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.btnuserposts{
+    background-color: inherit;
+    margin-left: 60px;
+}
+.addexptitle{
+    font-size: 1rem;
+    font-weight: sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    color:lightblue;
+}
+.inputtext{
+    background: transparent;
+    border:1px solid;
+    border-radius: 5px;
+    margin:5px 10px;
+    padding:10px;
+}
+.inputfile{
+    background: transparent;
+    border:1px solid;
+    border-radius: 5px;
+    margin:5px 10px;
+    width:50px;
+}
+.newpost-btn{
+    background-color: inherit;
+    color:white;
+    font-size: 22px;
+    font-weight: sans-serif;
+    margin-left: 280px;
+    border:2px solid;
+    border-radius: 5px;
+    width:100px;
+    height: 40px;
+}
+.newpost-btn:hover{
+    background-color: rgb(211, 104, 104);
+}

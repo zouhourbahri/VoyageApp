@@ -1,0 +1,316 @@
+.containerHead {
+	border: 1px solid white;
+	width: 300px;
+	text-align: center;
+	top:0px;
+	margin:0px;
+}
+.myname{
+	color:lightcoral;
+	font-weight: bolder;
+	font-size: 26px;
+	text-shadow: 2px 2px #7c7979a2;
+
+}
+
+.neons h1 {
+	text-align: center;
+	font-weight: bold;
+}
+:root {
+	--primary-color: #2f2680;
+	--secondary-color: #2f26805e;	
+}
+.welcome{
+	font-size:29px;
+	padding-top:10px;
+	color: var(--primary-color);
+	animation: 1.2s slideIn ease-in-out forwards 1s;
+	position: relative;
+	z-index: 10;
+	opacity: 0;
+	transform: translateY(-600px);
+	margin-bottom: 180px;
+}
+.welcome::before {
+	  content: '';
+	  width: 0%;
+	  height: 15px;
+	  background-color: var(--secondary-color);
+	  position: absolute;
+	  bottom: -1px;
+	  animation: 1s underline ease-in-out forwards 2s;
+	  mix-blend-mode: screen;
+  }
+  
+  .overlay {
+	  position: absolute;
+	  width: 100%;
+	  top: 0;
+	  bottom: 0;
+	  opacity: 0;
+	  left: 0;
+	  right: 0;
+	  background-color: var(--secondary-color);
+	  transform: scale(.5);
+  }
+  
+  @keyframes skewBg {
+	0% {
+	  transform: scale(.5);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+  @keyframes underline {
+	100% {
+	  width: 100%;
+	}
+  }
+  
+  @keyframes slideIn {
+	100% {
+	  transform: translateY(0px);
+	  opacity: 1;
+	}
+  }
+.contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: white;
+  padding-bottom: 30px;
+}
+.logoutbar{
+	margin-right: 1400px;
+	/* margin-top: 15px; */
+	height: 100%;
+	margin:0px;
+	height: 100%;
+	background-color: white;
+}
+.logo{
+	margin-left: 10px;
+}
+.logout-btn {
+	background-color: inherit;
+    font-family: Hack, monospace;
+	color: #365e9b;
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 10px;
+	position: relative;
+	height: 10px;
+	margin-bottom: 20px;
+}
+.logout-btn::after {
+        content: "\f2f5";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        position: absolute;
+        left: 80%;
+        top: 54%;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+} 
+.logout-btn:hover {
+        background: #2b2bff;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #0000ff61;
+        padding: 0.25rem 0.5rem 1.5rem 0.5rem;
+		color: #ffffff;
+} 
+.logout-btn::after {
+        transition: all 0.5s;
+        color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.63);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  align-items: center;
+}
+.liste {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  padding: 10px;
+  color:black;
+}
+.navigation{
+  width:1350px;
+  display: flex;
+  justify-content: space-between;
+  margin-left:80px;
+}
+.searchzone{
+  margin-right: 30px;
+  padding-top: 5px;
+}
+
+
+/* Active state */
+* {
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	font-size: calc(16px + (24 - 16)*(100vw - 320px)/(1920 - 320));
+}
+body, button, input {
+	font: 1em Hind, sans-serif;
+	line-height: 1.5em;
+}
+/* body, */
+input {
+	color: #171717;
+}
+body, .search-bar {
+	display: flex;
+}
+body {
+	background: #f1f1f1;
+	height: 100vh;
+}
+.search-bar input,
+.search-btn, 
+.search-btn:before, 
+.search-btn:after {
+	transition: all 0.25s ease-out;
+}
+.search-bar input,
+.search-btn {
+	width: 3em;
+	height: 3em;
+}
+.search-bar input:invalid:not(:focus),
+.search-btn {
+	cursor: pointer;
+}
+.search-bar,
+.search-bar input:focus,
+.search-bar input:valid  {
+	width: 100%;
+}
+.search-bar input:focus,
+.search-bar input:not(:focus) + .search-btn:focus {
+	outline: transparent;
+}
+.search-bar {
+	margin: auto;
+	justify-content: center;
+	max-width: 30em;
+}
+.search-bar input {
+	background: transparent;
+	border-radius: 1.5em;
+	box-shadow: 0 0 0 0.4em #171717 inset;
+	padding: 0.75em;
+	transform: translate(0.5em,0.5em) scale(0.5);
+	transform-origin: 100% 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.search-bar input::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+.search-bar input:focus,
+.search-bar input:valid {
+	background: #fff;
+	border-radius: 0.375em 0 0 0.375em;
+	box-shadow: 0 0 0 0.1em #d9d9d9 inset;
+	transform: scale(1);
+}
+.search-btn {
+	background: #171717;
+	border-radius: 0 0.75em 0.75em 0 / 0 1.5em 1.5em 0;
+	padding: 0.75em;
+	position: relative;
+	transform: translate(0.25em,0.25em) rotate(45deg) scale(0.25,0.125);
+	transform-origin: 0 50%;
+}
+.search-btn:before, 
+.search-btn:after {
+	content: "";
+	display: block;
+	opacity: 0;
+	position: absolute;
+}
+.search-btn:before {
+	border-radius: 50%;
+	box-shadow: 0 0 0 0.2em #f1f1f1 inset;
+	top: 0.75em;
+	left: 0.75em;
+	width: 1.2em;
+	height: 1.2em;
+}
+.search-btn:after {
+	background: #f1f1f1;
+	border-radius: 0 0.25em 0.25em 0;
+	top: 51%;
+	left: 51%;
+	width: 0.75em;
+	height: 0.25em;
+	transform: translate(0.2em,0) rotate(45deg);
+	transform-origin: 0 50%;
+}
+.search-btn span {
+	display: inline-block;
+	overflow: hidden;
+	width: 1px;
+	height: 1px;
+}
+/*SEARCH */
+.search-bar input:focus + .search-btn,
+.search-bar input:valid + .search-btn {
+	background: #2762f3;
+	border-radius: 0 0.375em 0.375em 0;
+	transform: scale(1);
+}
+.search-bar input:focus + .search-btn:before, 
+.search-bar input:focus + .search-btn:after,
+.search-bar input:valid + .search-btn:before, 
+.search-bar input:valid + .search-btn:after {
+	opacity: 1;
+}
+.search-bar input:focus + .search-btn:hover,
+.search-bar input:valid + .search-btn:hover,
+.search-bar input:valid:not(:focus) + .search-btn:focus {
+	background: #0c48db;
+}
+.search-bar input:focus + .search-btn:active,
+.search-bar input:valid + .search-btn:active {
+	transform: translateY(1px);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	body, input {
+		color: #f1f1f1;
+	}
+	.search-bar input {
+		box-shadow: 0 0 0 0.4em #f1f1f1 inset;
+	}
+	.search-bar input:focus,
+	.search-bar input:valid {
+		background: #3d3d3d;
+		box-shadow: 0 0 0 0.1em #3d3d3d inset;
+	}
+	.search-btn {
+		background: #f1f1f1;
+	}
+}

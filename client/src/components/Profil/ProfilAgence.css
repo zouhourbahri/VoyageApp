@@ -1,0 +1,40 @@
+.profilagence{
+    display: flex;
+    width:1519.2px;
+    height: 748px;
+}
+.nav-profilagence{
+    position:fixed;
+    height: 100%;
+}
+.content{
+    margin-left: 700px;
+    margin-top: 100px;
+    width:500px;
+    border:3px solid silver;
+    height: 550px;
+    border-radius: 20px;
+    box-shadow: 10px 10px silver;
+}
+.text-agence{
+    width:500px;
+    height: 400px;
+    padding-top:100px;
+    border-radius: 10px;
+
+}
+.text-content{
+    text-align: center;
+    font-size: 26px;
+    color:silver;
+}
+.btnss{
+    background-color: inherit;
+}
+.position{
+    margin-left:100px;
+    margin-top: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}

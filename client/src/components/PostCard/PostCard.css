@@ -1,0 +1,53 @@
+.postcard{
+    display: flex;
+    margin:0px 15px 35px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0.767);
+    width:550px;
+    box-shadow: 0 4px 8px 0 rgba(197, 195, 195, 0.904), 0 6px 20px 0 rgba(236, 233, 233, 0.822);
+}
+.otherimg{
+    height: 100%;
+    padding:20px;
+}
+.textpostcard{
+    margin: 10px;
+}
+.title-direction{
+    display: flex;
+    margin-left: 80px;
+    justify-content: space-around;
+    width: 100px;
+    font-size: 26px;
+    font-weight: sans-serif;
+    text-decoration: wavy;
+    /* text-shadow: 2px 2px 5px red; */
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.directioncard{
+    margin-right: 20px;
+}
+.card-description{
+    text-align: center;
+}
+.like-box{
+    width:200px;
+    margin:20px;
+}
+.like-btn{
+    margin-left: 10px;
+    background-color: inherit;
+}
+.postedby{
+    background-color: gray;
+    width:300px;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(197, 195, 195, 0.904), 0 6px 20px 0 rgba(236, 233, 233, 0.822);
+}
+.name{
+    margin-left:10px;
+}

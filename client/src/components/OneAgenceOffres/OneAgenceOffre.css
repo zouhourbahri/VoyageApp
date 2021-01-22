@@ -1,0 +1,18 @@
+.one-offre{
+    display: flex;
+    border: 1px solid silver;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px silver;
+    overflow: hidden;
+    width:600px;
+}
+.one-text{
+    margin: 20px 40px 10px 40px;
+}
+.infos{
+    text-align: center;
+    font-size: 24px;
+    font-weight: sans-serif;
+    color: silver;
+}

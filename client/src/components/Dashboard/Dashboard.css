@@ -1,0 +1,65 @@
+.containing{
+    display: flex;
+    justify-content: space-between;
+    padding:10px 0px;
+    background-color: #d3d4d3;
+}
+
+.contain{
+   padding: 10px;
+   text-align: center;
+
+}
+/* .carousel{
+    margin-left: 5px;
+    z-index: -1;
+    background-color:#ffff;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+.bord{
+  background-color: aqua;  
+ height:200px;
+    
+}
+.holepagehome{
+    width:1500px;
+    height:748px;
+}
+.homeoffres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 60px;
+
+}
+.searchzone{
+    margin-left: 230px;
+    width:1100px;
+    height:80px;
+    border-radius: 10px;
+    border:1px solid white;
+    margin-bottom: 45px;
+}
+.select-zone{
+    margin:15px 40px;
+    width:300px;
+    height:40px;
+    border-radius: 5px;
+}
+.input-zone{
+    margin-left: 200px;
+    width:400px;
+    height:40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding:10px;
+}
+.btn-zone{
+    background-color: inherit;
+    height: 40px;
+    background-color: gray;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+}
+

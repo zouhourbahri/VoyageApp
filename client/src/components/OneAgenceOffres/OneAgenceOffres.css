@@ -1,0 +1,12 @@
+.oneagenceoffres{
+    display: flex;
+    width:1519.2px;
+    height:748px;
+}
+.one-nav{
+    position: fixed;
+    margin-top: 130px;
+}
+.links-one{
+    margin-left: 350px;
+}

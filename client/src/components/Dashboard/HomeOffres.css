@@ -1,0 +1,17 @@
+.offre-all{
+    margin:30px;
+    border:1px solid aqua;
+    border-radius: 10px;
+    box-shadow: 10px 10px aqua;
+    width:300px;
+    /* text-align: center; */
+    overflow: hidden;
+    color:silver;
+}
+/* .homeoffres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 60px;
+
+} */

@@ -1,0 +1,13 @@
+.offrecard{
+    background-color: burlywood;
+    margin:20px;
+    border-radius: 10px;
+    width:350px;
+    height: 80%;
+}
+.publishedoffre{
+    text-align: center;
+    font-size: 22px;
+    font-weight: sans-serif;
+    color:crimson;
+}

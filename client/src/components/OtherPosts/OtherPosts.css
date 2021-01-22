@@ -1,0 +1,26 @@
+.otherposts{
+    display: flex;
+    width: 1530.2px;
+    height: 750px;
+    justify-content: space-between;
+
+}
+.nav-otherposts{
+position:fixed;
+margin-top:100px;
+}
+.list-otherposts{
+    margin-left: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:1200px;
+}
+.linked-list{
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    
+}

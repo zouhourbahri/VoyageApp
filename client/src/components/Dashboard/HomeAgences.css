@@ -1,0 +1,19 @@
+.agence-chid{
+    border:1px solid gold;
+    box-shadow: 10px 10px gold;
+    border-radius: 10px;
+    height:200px;
+    text-align: center;
+    margin:30px;
+    width:300px;
+}
+.agence-chid:hover{
+    transform: scale(1.2,1.2);
+}
+.homeagences{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 60px;
+
+}

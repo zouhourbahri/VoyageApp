@@ -1,0 +1,96 @@
+.one {
+    background-color: #ac779f77;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform-style: preserve-3d;
+    border-radius: 10px;
+    text-align: center;
+}
+    .one:hover {
+        transform: rotateY(0.5turn);
+    }
+    .one__face {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-top:200px;
+        backface-visibility: hidden;
+        transition: 1s ease-in-out;
+        -webkit-box-reflect: below 0
+        linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+    }
+    .para{
+    list-style: none;
+
+    }
+    .one__face--back {
+    transform: rotateY(0.5turn);
+    text-align: center;
+    padding-top:140px;
+    }
+
+.changebtn{
+    background-color: inherit;
+    background: linear-gradient(to bottom, #bada55, #da55bb);
+    padding:10px;
+}
+.linkedbtn{
+    color:white;
+}
+.linkedbtn:hover{
+    text-decoration: none;
+}
+.multi-button {
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.45));
+    margin: 60px 0px;
+  }
+  .multi-button .changebtn{
+    height: 70px;
+    width: 160px;
+    background: linear-gradient(to bottom, #bada55, #da55bb);
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin: -5px; 
+    padding: 0;
+    stroke: black;
+    outline: none;
+  }
+  .multi-button :nth-child(1){
+    border-radius: 20px 0 0 20px;
+  }
+  .multi-button :nth-child(3){
+    border-radius: 0 20px 20px 0;
+  }
+  .changebtn:hover{
+    cursor: pointer;
+    filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.45));
+
+  }
+  .changebtn:active{
+    filter: none;
+    transform: scale(.95);
+
+  }
+  .totalcards{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width:1400px;
+  }
+  .userprofil{
+    display: flex;
+    height: 754px;
+    width:1519.2px;
+    }
+  .navbar{
+      height:100%;
+      top:0%;
+      margin:0px;
+      background-color: white;
+  }

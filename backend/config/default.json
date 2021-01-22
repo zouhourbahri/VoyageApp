@@ -1,0 +1,4 @@
+{
+    "mongoUri":"mongodb+srv://zouhourbahri:20122465@projectapp.fyxhi.mongodb.net/projectAPP",
+    "secretOrKey":"mySecret"
+}

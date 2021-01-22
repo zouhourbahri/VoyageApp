@@ -1,0 +1,33 @@
+.useragences{
+    display: flex;
+    width:1519.2px;
+    height:748px;
+}
+.list-agences{
+    margin:20px auto;
+    width: 1000px;
+    margin-left: 400px;
+}
+.userAlinks{
+    display: flex;
+    margin-left: 700px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.userA-nav{
+    position: fixed;
+    height: 100%;
+}
+.btn-useragences{
+background-color: inherit;
+color:lightpink;
+}
+.agenceslist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.viewoffres{
+    background-color: inherit;
+    text-decoration: none;
+}

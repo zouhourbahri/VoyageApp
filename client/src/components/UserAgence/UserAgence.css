@@ -1,0 +1,17 @@
+.useragence{
+    border: 1px solid white;
+    margin:35px;
+    border-radius: 30px;
+    width:400px;
+    text-align: center;
+    box-shadow: 5px 5px gold;
+}
+.ratingstars{
+    margin-left: 100px;
+}
+.useragence:hover{
+    transform: scale(1.2, 1.2);
+}
+.textagence{
+    color:#FF851B;
+}

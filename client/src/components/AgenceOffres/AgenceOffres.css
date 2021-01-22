@@ -1,0 +1,48 @@
+.AgenceOffres{
+width:1519.2px;
+height:748px;
+display: flex;
+}
+.nav-agenceoffres{
+    position: fixed;
+    margin-top: 150px;
+}
+.agencedata{
+    margin-left: 320px;
+    display: flex;
+}
+
+.list-offres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:720px;
+}
+.linkprofilagence{
+    margin-left: 300px;
+}
+.newOffreform{
+    margin-top: 250px;
+    position:fixed;
+    border:3px solid silver;
+    box-shadow: 5px 5px silver;
+    background-color: rgb(20, 65, 68);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.inputformoffre{
+    background-color: rgba(128, 128, 128, 0.507);
+    border-radius: 5px;
+    padding-left: 30px;
+    margin:5px;
+}
+.btn-agenceoffre{
+    background-color: inherit;
+    margin-left: 300px;
+    width:100px;
+    height: 50px;
+    background-color:rgb(0, 68, 255);
+    border: 3px solid silver;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
